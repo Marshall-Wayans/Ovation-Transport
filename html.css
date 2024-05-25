@@ -1,0 +1,161 @@
+.services {
+    background-color: #f5f5f5;
+    padding: 5rem 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 0;
+    /* margin-bottom: -180vh; */
+}
+
+.services h2 {
+    font-size: 5rem;
+    margin-bottom: 7rem;
+}
+
+
+
+
+.card{
+    
+    width: 600px;
+    height: 500px;
+    padding: 2rem 1rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+    margin-left: 127.56px;
+    top: -1500px;
+    margin-bottom: 1in;
+}
+
+.blue-card {
+    position: fixed;
+    right: 0;
+    margin-left: 560px;
+    width: 800px;
+    height: 500px;
+    padding: 2rem 1rem;
+    background: rgb(250, 250, 240);
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition: none;
+    top: 0.6in;
+    opacity: 0.8;
+}
+
+.orange-card {
+    position: relative;
+    left: 0;
+    margin-left: 128px;
+    width: 800px;
+    height: 500px;
+    padding: 2rem 1rem;
+    background: rgb(250, 250, 240);
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition: none;
+    top: 1.4in;
+    opacity: 0.8;
+    
+}
+
+.yellow-card {
+    position: relative;
+    left: 0;
+    margin-left: 560px;
+    width: 800px;
+    height: 500px;
+    padding: 2rem 1rem;
+    background: rgb(250, 250, 240);
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition: none;
+    top: 1.8in;
+    bottom: -30%;
+    opacity: 0.8;
+}
+
+.card:hover{
+    transform: translateY(80px);
+}
+
+.card:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    transition: 0.5s all;
+    opacity: 0;
+}
+
+.card:hover:before{
+    opacity: 2;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.info h3{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    color: black;
+}
+.info h1{
+    top: 150px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: var(--text-color);
+}
+
+
+
+.card:nth-child(2) {
+    position: relative;
+    right: 0;
+    margin-left: 1100px;
+
+    
+
+}
+
+.wrappper{
+    display: flex;
+    position: relative;
+}
+
+.card h4,
+.card h5 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 1rem;
+}

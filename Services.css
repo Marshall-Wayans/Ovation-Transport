@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+
+:root{
+    --bg-color: rgb(255, 255, 255);
+    --second-bg-color: #c0b4b4;
+    --text-color: #161616;
+    --main-color: rgba(30, 113, 202, 0.877);
+    --other-color: red;
+    --bg-image: url(Deathstroke.jpg);
+    --image-opacity: 0.5;
+    --image-height: 100%;
+}
+
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    text-align: center;
+    align-items: center;
+    padding: 5rem 0;
+
+}
+
+.header h2{
+    font-size: 32px;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+}
+
+.clients h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.header p{
+    font-size: 18px;
+}
+
+.section .Words{
+    min-height: 50vh;
+    margin-bottom: 50px;
+}
+
+.another{
+    margin-top: 50px;
+}
+
+
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.services h5{
+    font-size: 15px;
+}
+
+.services h3{
+    font-size: 22px;
+}
+
+
+.checkbox-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.checkbox-list input[type="checkbox"] {
+    display: none; /* Hide the checkbox */
+    margin-right: 1.2in;
+}
+
+.checkbox-list label {
+    display: block;
+    margin-bottom: 0.8in;
+    cursor: pointer;
+    width: calc(33.33% - 2in);
+    font-size: 20px;
+    
+}
+
+/* Style for unchecked checkbox */
+.checkbox-list input[type="checkbox"] + label::before {
+    content: "\2714"; /* Unicode checkmark symbol */
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 1.2em;
+    margin-right: 5px;
+}
+
+/* Style for checked checkbox */
+.checkbox-list input[type="checkbox"]:checked + label::before {
+    background-color: #007bff; /* Change background color for checked checkbox */
+    color: white; /* Change text color for checked checkbox */
+}
+
+
+
+.logo{
+    height: 140px;
+    width: auto;
+    width: 150px;
+    margin-bottom: 30px;
+}
+footer{
+    height: 40vh;
+    width: 100%;
+    background: linear-gradient(to right, #3d53d1, #8d9bee);
+    color: #fff;
+    padding: 100px 0 30px;
+    /* border-top-left-radius: 125px; */
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.col:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+}
+
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;          
+}
+
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.links ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+form .far{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: nonee;
+}
+
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.section__container{
+    /* max-width: 100vh; */
+    margin: auto;
+    padding: 5rem 1rem;
+}
+
+
+
+
+
+
+
+h2:hover, h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: orangered;
+}
+
+
+
+
+.header{
+    margin-top: 1.5in;
+}
+
+.revive {
+    font-size: 24px;
+    text-align: center;
+}
+
+.cardz-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 80px auto;
+    align-items: flex-start;
+    text-align: center;
+    flex-direction: row;
+}
+
+.cardz{
+    width: 400px;
+    height: 450px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    box-shadow: #47190a;
+}
+
+
+.color-1 i{
+    color: rgb(248, 230, 205);
+    font-size: 52px;
+    margin-top: 50px;
+}
+
+.color-2 h3{
+    font-size: 40px;
+
+}
+
+.color-1 .cardz {
+    background-color: rgb(27, 39, 148);
+}
+
+.color-2 .cardz {
+    background-color: rgb(236, 165, 11); /* Light orange color */
+}
+
+.color-2 i{
+    color: lemonchiffon;
+    font-size: 52px;
+    margin-top: 50px;
+}
+
+.color-3 .cardz {
+    background-color: lightgrey;
+}
+
+
+
+.color-3 i{
+    color: #47190a;
+    align-items: center;
+    font-size: 48px;
+    margin-top: 50px;
+    
+}
+
+.color-1 .card-content{
+    color: whitesmoke;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-top: 36px;
+
+}
+
+.card-content h3{
+    font-size: 20px;
+}
+
+.card-content p{
+    font-size: 20px;
+}
+
+
+
+
+.headers{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 9%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 3rem;
+    color: var(--text-color);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.navbar a{
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    border-bottom: 3px solid transparent;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+
+
+
+
